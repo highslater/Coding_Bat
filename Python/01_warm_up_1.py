@@ -3,6 +3,7 @@
 """Docstring."""
 
 
+# 1
 def sleep_in(weekday, vacation):
     """Warmup-1 > sleep_in."""
     return not weekday or vacation
@@ -21,6 +22,7 @@ sleep_in(False, True) → True
 # print(sleep_in(False, True))
 
 
+# 2
 def monkey_trouble(a_smile, b_smile):
     """Warmup-1 > monkey_trouble."""
     return (a_smile and b_smile) or (not a_smile and not b_smile)
@@ -39,6 +41,7 @@ monkey_trouble(True, False) → False
 # print(monkey_trouble(True, False))
 
 
+# 3
 def sum_double(a, b):
     """Warmup-1 > sum_double."""
     return [a + b, 2 * (a + b)][a == b]
@@ -56,6 +59,7 @@ sum_double(2, 2) → 8
 # print(sum_double(2, 2))
 
 
+# 4
 def diff21(n):
     """Warmup-1 > diff21."""
     a = abs(n - 21)
@@ -74,6 +78,7 @@ diff21(21) → 0
 # print(diff21(21))
 
 
+# 5
 def parrot_trouble(talking, hour):
     """Warmup-1 > parrot_trouble."""
     return talking and (7 > hour or hour > 20)
@@ -92,6 +97,7 @@ parrot_trouble(False, 6) → False
 # print(parrot_trouble(False, 6))
 
 
+# 6
 def makes10(a, b):
     """Warmup-1 > makes10."""
     return (a == 10 or b == 10) or a + b == 10
